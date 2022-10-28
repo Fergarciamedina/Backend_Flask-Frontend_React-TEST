@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH='/media/fergm/DummySUb/BckendFrontendTest/TestFlaskReact/envnode/lib/node_modules'
+export NPM_CONFIG_PREFIX='/media/fergm/DummySUb/BckendFrontendTest/TestFlaskReact/envnode'
+export npm_config_prefix='/media/fergm/DummySUb/BckendFrontendTest/TestFlaskReact/envnode'
+exec 'envnode/bin/node' "$@"
